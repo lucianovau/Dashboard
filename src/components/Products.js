@@ -18,8 +18,8 @@ function Products(props){
                     return(
                     <div className="col-lg-4 mb-6">
                         <div className="card shadow mb-4">
-                            <div className="card-header py-3">
-                                <h5 className="m-0 font-weight-bold text-gray-800">{product.name}</h5>
+                            <div className="card-header py-3" style={{ backgroundColor: "rgb(80, 89, 100)"}}>
+                                <h5 className="m-0 font-weight-bold text-white">{product.name}</h5>
                             </div>
                             <div className="card-body">
                                 <p style={{ maxHeight: '50px', overflow: 'hidden'}}>{product?.description}</p> 

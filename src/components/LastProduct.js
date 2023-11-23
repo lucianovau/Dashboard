@@ -48,7 +48,7 @@ function LastProduct(){
                                 <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: 40 +'rem'}} src= {img?`http://localhost:3030/${img[4]}`: null } alt=""/>
                             </div>
                             <p>{data?.descripcion}</p>
-                            <a className="btn btn-danger" target="_blank" rel="nofollow" href="/">View product detail</a>
+                            <a className="btn btn-outline-dark" target="_blank" rel="nofollow" href={`${data?.detail}`}>View product detail</a>
                         </div>
                     </div>
                 </div>

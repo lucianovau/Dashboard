@@ -3,6 +3,7 @@ import Totals from './Totals';
 import LastProduct from './LastProduct';
 import Brands from './Brands';
 import Products from './Products';
+import { Pagination } from './Pagination';
 function ContentRowTop(){
 	
     return(
@@ -25,7 +26,7 @@ function ContentRowTop(){
 					</div>
 					{/*<!--End Content Row Top-->*/}
            			 <h2 style={{textAlign: 'center', margin: '0px 0px 30px 0px'}}>Listado de Productos</h2>
-					<Products></Products>
+				<Products></Products>
 				</div>
           </React.Fragment>
     )

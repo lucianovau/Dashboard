@@ -44,7 +44,7 @@ function SideBar(){
                 <li className="nav-item">
                     <a className="nav-link" href="/">
                         <i className="fas fa-fw fa-chart-area"></i>
-                        <span>Charts</span></a>
+                        <span>Contact</span></a>
                 </li>
 
                 {/*<!-- Nav Item - Tables -->*/}
